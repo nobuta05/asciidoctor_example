@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>てすと</title>
+<date>2020-08-23</date>
+</info>
+<section xml:id="_見出し">
+<title>見出し</title>
+<simpara>以下が正しく表示されることを期待しています。</simpara>
+<informalequation>
+<alt><![CDATA[\begin{align*}
+  \bigcup_{n\in\mathbb{N}} A_n = \liminf_{n} A_n
+  .
+\end{align*}]]></alt>
+<mathphrase><![CDATA[\begin{align*}
+  \bigcup_{n\in\mathbb{N}} A_n = \liminf_{n} A_n
+  .
+\end{align*}]]></mathphrase>
+</informalequation>
+<simpara>以下では、定理としてblock要素となることを期待します。</simpara>
+<formalpara role="theorem">
+<title>とある性質</title>
+<para>
+<simpara>この文章はblock要素の中に記述されることを期待しています。また以下の数式も同様です。</simpara>
+<informalequation>
+<alt><![CDATA[\begin{align}
+  \lambda = \bigcap_{n\in\mathbb{N}} A_n
+\end{align}]]></alt>
+<mathphrase><![CDATA[\begin{align}
+  \lambda = \bigcap_{n\in\mathbb{N}} A_n
+\end{align}]]></mathphrase>
+</informalequation>
+<simpara>これは締めの文章です。</simpara>
+</para>
+</formalpara>
+<simpara>上記は正しく表示されているでしょうか？</simpara>
+</section>
+</article>

@@ -1,0 +1,36 @@
+:stem: latexmath
+:sectnums:
+
+= てすと
+
+== 見出し
+
+以下が正しく表示されることを期待しています。
+
+[latexmath]
+++++
+\begin{align*}
+  \bigcup_{n\in\mathbb{N}} A_n = \liminf_{n} A_n
+  .
+\end{align*}
+++++
+
+
+以下では、定理としてblock要素となることを期待します。
+
+.とある性質
+[.theorem]
+--
+この文章はblock要素の中に記述されることを期待しています。また以下の数式も同様です。
+
+[latexmath]
+++++
+\begin{align}
+  \lambda = \bigcap_{n\in\mathbb{N}} A_n
+\end{align}
+++++
+
+これは締めの文章です。
+--
+
+上記は正しく表示されているでしょうか？
